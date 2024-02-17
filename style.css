@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+.mainheadingWhite {
+
+    padding-top: 165px;
+    padding-left: 64px;
+}
+
+.mainheadingWhite h1 {
+    font-weight: 700;
+    font-size: 273%;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-weight: 200px;
+    color: white;
+
+}
+
+.socialLinks {
+    margin-right: 10px;
+
+}
+
+.firstcontent {
+    background-image: url("https://html.design/demo/hicknell/images/slider-bg.jpg");
+    height: 617px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.rgbacolor {
+    height: 617px;
+    background-color: rgba(42, 22, 0, 0.58);
+}
+
+.buttons button {
+    width: 166px;
+    height: 48px;
+    border: none;
+    margin-right: 6px;
+    transition: 0.4s;
+}
+
+.orange {
+    background-color: #fa7d09;
+    color: white;
+
+}
+
+.orange:hover {
+    background-color: transparent;
+    color: #fa7d09;
+    border: 2px solid #fa7d09;
+
+}
+
+.white:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.Servicesh4 {
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 46px;
+}
+
+.cardContaint {
+    background-color: rgb(235, 237, 243);
+    width: 350px;
+    height: 253px;
+}
+
+.cardContaint h5 {
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.cardlink {
+    text-decoration: none;
+    color: #fa7d09;
+}
+
+.cardimage {
+    order: 1;
+}
+
+.mainsecondcontainers{
+    margin-bottom: 100px;
+}
+.thirdcontent{
+    margin-bottom: 100px;
+}
+.thirdcontentcard h1{
+    margin-top: 11%;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.thirdcontentcard button{
+    width: 166px;
+    height: 48px;
+    border: none;
+    background-color: #fa7d09;
+    color: white;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+.thirdcontentcard button:hover{
+    background-color: transparent;
+    color: #fa7d09;
+    border: 1px solid #fa7d09;
+}
+.ourclientmain h1{
+font-weight: bold;
+margin-bottom: 5%;
+}
+
+.formS h2{
+font-weight: bold;
+}
+.formS button{
+    background-color: #fa7d09;
+    border: none;
+    width: 100%;
+}
+.formS button:hover{
+    background-color:transparent;
+    border: 1px solid #fa7d09;
+    color: #fa7d09;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(37, 29, 24);
+    color: aliceblue;
+    padding-top: 1%;
+    text-align: center;
+}
+
+@media (max-width:440px) {
+    .firstcontent {
+        background-image: url("https://html.design/demo/hicknell/images/slider-bg.jpg");
+        height: 617px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    
+    
+    .cardimage img {
+        width: 100%;
+
+    }
+
+    .cardContaint {
+        width: 100%;
+    }
+
+    .cardimage {
+        order: 0;
+    }
+
+    .containerCard {
+        margin-bottom: 3px;
+    }
+    /* .buttons button{
+        width: 100%;
+
+    } */
+    .mainheadingWhite{
+        padding-left: 0;
+        text-align: center;
+   
+}
+.orange {
+    margin-bottom: 2px;
+
+}
+
+
+
+}
